@@ -14,7 +14,7 @@
 
 		<!-- Website Font style -->
 	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="../css/register.css">
 		<!-- Google Fonts -->
 		<link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
@@ -68,7 +68,7 @@
 							</div>
 						</div>
                         <div class="form-group">
-                            <label for="remember-me" class="text-info"><span>Remember me</span></label><br>
+							<a href="./login.php" class="text-info">Login here</a><br>
                             <input type="submit" name="submit" class="btn btn-info btn-md" value="submit">
                         </div>
 						
