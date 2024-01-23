@@ -22,28 +22,28 @@
 		<title>Register</title>
 	</head>
 	<body>
-		<div class="container">
-			<div class="row main">
+		<section class="container">
+			<article class="row main">
 				<div class="main-login main-center">
 				<h5>Sign up once and watch any of our free demos.</h5>
 					<form class="" method="post" action="#">
 						
 						<div class="form-group">
-							<label for="name" class="cols-sm-2 control-label">Your First Name</label>
+							<label for="first_name" class="cols-sm-2 control-label">Your First Name</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
-									<input type="text" class="form-control" name="name" id="name"  placeholder="Enter your First Name"/>
+									<input type="text" class="form-control" name="first_name" id="first_name"  placeholder="Enter your First Name"/>
 								</div>
 							</div>
 						</div>
 
                         <div class="form-group">
-							<label for="name" class="cols-sm-2 control-label">Your Last Name</label>
+							<label for="last_name" class="cols-sm-2 control-label">Your Last Name</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
-									<input type="text" class="form-control" name="name" id="name"  placeholder="Enter your Last Name"/>
+									<input type="text" class="form-control" name="last_name" id="last_name"  placeholder="Enter your Last Name"/>
 								</div>
 							</div>
 						</div>
@@ -74,8 +74,8 @@
 						
 					</form>
 				</div>
-			</div>
-		</div>
+			</article>
+		</section>
 
 		 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

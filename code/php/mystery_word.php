@@ -14,6 +14,10 @@
     ?>
 
     <p> Je veux connaitre le mot mystere, donc affichez le ici : <?php //juste la ?></p>
+
+    <br>
+
+    <a href="./update_profile.php" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Modification du profile</a>
     
 </body>
 </html>

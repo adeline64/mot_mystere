@@ -8,8 +8,10 @@
     <title>The mystery Message</title>
 </head>
 <body>
-    <h1>Venez découvrir le message caché</h1>
-    <a href="./code/php/login.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Connectez vous</a>
-    <a href="./code/php/register.php" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Inscrivez vous</a>
+    <section>
+        <h1>Venez découvrir le message caché</h1>
+        <a href="./code/php/login.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Connectez vous</a>
+        <a href="./code/php/register.php" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Inscrivez vous</a>
+    </section>
 </body>
 </html>
