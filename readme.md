@@ -5,9 +5,9 @@ Cet exercice vise à vous familiariser avec la création d'une base de données,
 
 ## Étapes à suivre
 
-### 1. Création de la BDD `mystery_world`
+### 1. Création de la BDD `mystery_word`
 
-**Script SQL :** Utilisez le script SQL fourni dans le dossier `sql` pour créer la base de données `mystery_world`. 
+**Script SQL :** Utilisez le script SQL fourni dans le dossier `sql` pour créer la base de données `mystery_word`. 
 
 ### 2. Inscription de l'utilisateur
 
@@ -19,8 +19,14 @@ Cet exercice vise à vous familiariser avec la création d'une base de données,
 
 ### 4. Récupération du mot mystère
 
-**Page PHP (`mystery_world.php`) :** Effectuez une requête SQL pour récupérer le mot mystère depuis la base de données.
+**Page PHP (`mystery_word.php`) :** Effectuez une requête SQL pour récupérer le mot mystère depuis la base de données.
 
 ### 5. Affichage du mot mystère
 
-**Page PHP (`mystery_world.php`) :** Affichez le mot mystère récupéré sur la page web.
+**Page PHP (`mystery_word.php`) :** Affichez le mot mystère récupéré sur la page web.
+
+### BONUS
+
+**Page PHP (`update_profile.php`) :** Moddifiez le nom et prénom de l'utilisateur connecté
+
+**Refactoriser le code**

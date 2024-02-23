@@ -18,28 +18,28 @@ CREATE TABLE User(
 
 
 #------------------------------------------------------------
-# Table: mystery_world
+# Table: Mystery_word
 #------------------------------------------------------------
 
-CREATE TABLE mystery_world(
-        id_mystery_world Int  Auto_increment  NOT NULL ,
-        world            Varchar (255) NOT NULL
-	,CONSTRAINT mystery_world_PK PRIMARY KEY (id_mystery_world)
+CREATE TABLE Mystery_word(
+        id_mystery_word Int  Auto_increment  NOT NULL ,
+        word            Varchar (70) NOT NULL
+	,CONSTRAINT Mystery_word_PK PRIMARY KEY (id_mystery_word)
 )ENGINE=InnoDB;
 
 
 #------------------------------------------------------------
-# Table: User_World
+# Table: User_Mystery_Word
 #------------------------------------------------------------
 
-CREATE TABLE User_World(
-        id_mystery_world Int NOT NULL ,
-        id_user          Int NOT NULL
-	,CONSTRAINT User_World_PK PRIMARY KEY (id_mystery_world,id_user)
+CREATE TABLE User_Mystery_Word(
+        id_mystery_word Int NOT NULL ,
+        id_user         Int NOT NULL
+	,CONSTRAINT User_Mystery_Word_PK PRIMARY KEY (id_mystery_word,id_user)
 
-	,CONSTRAINT User_World_mystery_world_FK FOREIGN KEY (id_mystery_world) REFERENCES mystery_world(id_mystery_world)
-	,CONSTRAINT User_World_User0_FK FOREIGN KEY (id_user) REFERENCES User(id_user)
+	,CONSTRAINT User_Mystery_Word_Mystery_word_FK FOREIGN KEY (id_mystery_word) REFERENCES Mystery_word(id_mystery_word)
+	,CONSTRAINT User_Mystery_Word_User0_FK FOREIGN KEY (id_user) REFERENCES User(id_user)
 )ENGINE=InnoDB;
 
-INSERT INTO mystery_world (id_mystery_world, world)
-VALUES (1, 'Vous êtes les meilleurs =) ');
+INSERT INTO Mystery_word (id_mystery_word, word)
+VALUES (1, 'Félicitation =) ');
